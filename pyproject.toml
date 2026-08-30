@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gisfr-py"
+version = "0.1.0"
+description = "Pure-Python reader/plotter for GISFR radar mosaic files (Horizon Systems)"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.20",
+    "matplotlib>=3.4",
+]
+
+[tool.setuptools]
+packages = ["gisfr_py"]
